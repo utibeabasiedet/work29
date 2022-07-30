@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <title>Counti</title>
+</head>
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<body>
+    <header>
+        <!-- navigation -->
+        <nav>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <ul class="list-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://medium.com/me/settings#account">Blog</a></li>
+                <li><a href="#" class="signup">Sign up</a></li>
+            </ul>
+        </nav>
+        <!-- end of navigation -->
+    </header>
+    <section class="hero">
+        <div class="left-hero " >
+            <div class="left-hero-one">
+                <h1>Crypto Accounting Simplified</h1>
+                <div> Top-tier crypto accounting for everyday users</div>
+            </div>
+            
+            <div class="left-hero-two">
+                <div>Join our first 1000 users by <span>Signing up</span>.   You will be the first to be notified.</div> <br>
+                <form  class="sign-up-form"   id="subscribe-form-hero"  novalidate>
+                    <input type="email" name="email" id="email-hero" placeholder="Enter your email" required>
+                <button id="subscribe-button-hero">Join Waitlist</button>
+                </form>
+            </div>
+        </div>
+        <div class="right-hero" >
+            <img src="assets/images/final-hero.png" alt="">
+        </div>
+    </section>
+    <!-- <section class="down">
+        <div><i class="fa-solid fa-arrow-down"></i></div>
+    </section> -->
+    <section class="manage">
+        <div class="manage-image" >
+            <img src="assets/images/phonegroup.png" alt="">
+        </div>
+        <div class="manage-text" >
+            <h2>Manage and track all transactions in crypto and NFT to see total profit/loss in the market</h2>
+            <!-- <p> Top-tier crypto accounting for the next generation <br> 
+                Top-tier crypto accounting for the next generation</p> -->
+                <form  class="sign-up-form"   id="subscribe-form-manage"  novalidate>
+                    <input type="email" name="email" id="email-manage" placeholder="Enter your email" required>
+                    <button id="subscribe-button-manage">Join Waitlist</button>
+                </form>
+        </div>
+        
+    </section>
+
+    <section id="invoice" class="invoice">
+        <div class="left-invoice-text" >
+            1m
+
+            0
+m0 1  0
+
+1000      <div class="inner-1" >
+                <div class="left-invoice-inner">
+                    <h2>Raise customers invoice and get paid with crypto assets</h2>
+                  
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="right-invoice-invoice" >
+            <img src="assets/images/counti laptop mockup 1.png" alt="">
+        </div>
+    </section>
+    <!-- integrates -->
+    <section id="integrate" class="integrate">  
+        <div class="integrate-text" >
+            <h3>Integrates all your crypto and NFT activities across all exchanges and shows your profit  or loss accounts per time</h3>
+            <form  class="sign-up-form"   id="subscribe-form-integrate"  novalidate>
+                <input type="email" name="email" id="email-integrate" placeholder="Enter your email" required>
+            <button id="subscribe-button-integrate">Join Waitlist</button>
+            </form>
+        </div>
+        <div class="right-integrate" >
+            <div class="inner-1">
+                <div class="right-integrate-inner">
+                    <img src="assets/images/globe.png" alt="">
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <!-- exchanges -->
+    <section class="exchanges">
+        <div class="row-ex">
+            <div class="exchanges-items">
+                <div><img src="assets/images/Mid Icons.png" alt=""> <span>Exchanges</span> </div>
+                <div><img src="assets/images/Users.png" alt=""> <span>Community </span></div>
+                <div><img src="assets/images/Group.png" alt=""> <span>DAO</span> </div>
+            </div>
+            <div class="countdown " >
+                <h1>Countdown</h1>
+                <div class="countdown-container">
+                    <div class="count days-c">
+                        <p class="bg-text" id="days">0</p>
+                        <span>days</span>
+                    </div>
+                    <div class="count hours-c">
+                        <p class="bg-text" id="hours">0</p>
+                        <span>hrs</span>
+                    </div>
+                    <div class="count mins-c">
+                        <p class="bg-text" id="mins">0</p>
+                        <span>Mins</span>
+                    </div>
+                    <div class="count sec-c">
+                        <p class="bg-text" id="secs">0</p>
+                        <span>secs</span>
+                    </div>
+                </div>
+                <!-- <div class="subscribe">
+                    <h4>Join our first 1000 subscribers!</h4>
+                    <form action="" class="hero-form">
+                      <input type="text">
+                      <button>join waitlist</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+        
+    </section>
+    <!-- powerful integrations -->
+    <section id="powerful-integration" class="powerful-integration">
+        <div class="header-integration text-center">
+            <h2>Powerful integrations</h2>
+            <div>We support 300+ wallets and exchanges</div>
+        </div>
+        
+        <div class="integration-body">
+            <div class="int-content">
+                <img src="assets/images/trustwallet-logo 1.png" alt=""> <br>
+                <span>Trustwallet</span>
+            </div>
+            <div class="int-content">
+                <img src="assets/images/binance-logo 1.png" alt=""> <br>
+                <span>Binance</span>
+            </div>
+            <div class="int-content">
+                <img src="assets/images/metamask-logo 1.png" alt=""> <br>
+                <span>Metamask</span>
+            </div>
+            <div class="int-content">
+                <img src="assets/images/kucoin-logo 1.png" alt=""> <br>
+                <span>Kucoin</span>
+            </div>
+            <div class="int-content">
+                <img src="assets/images/coinbase-logo 1.png" alt=""> <br>
+                <span>Coinbase</span>
+            </div>
+            <div class="int-content">
+                <img src="assets/images/coinbaselogo.png" alt=""> <br>
+                <span>Coinbase Pro</span>
+            </div>
+        </div>
+    </section>
+    <!-- Begin Mailchimp Signup Form -->
+
+
+<!--End mc_embed_signup-->
+    <!-- blog -->
+    <section class="blog">
+        <div class="blog-header">
+            <h2> Latest news and Blog</h2>
+            <div>
+                 Read more about our accounting prd
+            </div>
+        </div>
+        <div class="blog-content">
+            <div class="blog-card">
+                <div class="blog-card-img">
+                    <img src="assets/images/Bear-Market.jpg" alt="">
+                </div>
+                <div class="blog-card-text">
+                    <!-- <h4>Futures Trading Week </h4>-->
+                     <p style="color: #111 ;">4 tips to surviving the bear market in crypto. A 3 minutes read..</p> 
+                    <a href="https://medium.com/@Counti/4-tips-to-surviving-the-bear-market-in-crypto-876a46d515c0">Read more </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-img">
+                    <img src="assets/images/Raising-first-receipt.jpg" alt="">
+                </div>
+                <div class="blog-card-text">
+                    <!-- <h4>Token Quartet Giveaway </h4>
+                    <p>BCQ crypto supports a variety of the most popular digital crypto currencies.</p> -->
+                    <a href="#">Read more </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-img">
+                    <img src="assets/images/blogger.png" alt="">
+                </div>
+                <div class="blog-card-text">
+                    <!-- <h4>Industry best practices</h4> -->
+                     <p style="color:#111">Crypto Accounting Simplified
+                        .</p> 
+                    <a href="https://medium.com/@Counti/crypto-accounting-simplified-bcafabbb9d12">Read more </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news letter -->
+    <section class="news-letter">
+        <div class="news-letter-text">Join our first 1000 users to experience simplified Web3 accounting by Signing up.  You’ll be the first to be notified.</div>
+        <div class="center">
+            <form  class="sign-up-form" id="subscribe-form"  novalidate>
+               <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <button
+                id="subscribe-button"
+                >Join Waitlist</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <!-- <footer  id="footer">
+            <div class="footer-left">
+                <h2>follow us</h2>
+                <ul class="list">
+                    <li><a href="https://twitter.com/Counti_io" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/invites/contact/?i=14wc21vlgtp0p&utm_content=oq5lp2f" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/counti-io/about/?viewAsMember=true" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                
+                
+                
+                
+              </div>
+              <div class="footer-right">
+                <form action="#" class="sign-up-form">
+                    <input type="text" placeholder="your email">
+                    <button>Join Waitlist</button>
+                </form>
+                
+              </div>
+                
+
+    </footer> -->
+    <section id="footer">
+        <div class="left-footer-div row">
+            <div class="direction-one left-foot  col ">
+                <h3>CONTACT</h3>
+                <p>Blog</p>
+                <p>help & Support</p>
+            </div>
+            <div class="direction-two left-foot col ">
+                <h3>FOLLOW US</h3>
+                <ul class="list">
+                    <li><a href="https://twitter.com/Counti_io" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/invites/contact/?i=14wc21vlgtp0p&utm_content=oq5lp2f" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/counti-io/about/?viewAsMember=true" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="left-hero-two left-foot col ">
+                <div>Join our first 1000 users by <span>Signing up</span>.   You’ll be the first to be notified.</div> <br>
+                <form  class="sign-up-form"   id="subscribe-form-footer"  novalidate>
+                    <input type="email" name="email" id="email-footer" placeholder="Enter your email" required>
+                <button id="subscribe-button-footer">Join Waitlist</button>
+                </form>
+            </div>
+        </div>
+        <div class="right-footer-div">
+            
+            <p><img src="assets/images/logo.png" alt="" height="50px"> All right Reserved &copy 2022</p>
+            
+        </div>
+    </section>
+  
+  <!-- End Footer -->
+  <!-- End Footer -->
+<!-- mailchimp -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- AOS -->
+    <script>
+        AOS.init();
+      </script>
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+        
+        let forms = document.getElementById('subscribe-form');
+        
+        forms.addEventListener('submit', function(event) {
+            event.preventDefault();
+            let email = document.getElementById('email').value;
+            let data = new FormData(forms);
+            data.append('email', 'email');
+            console.log(email);
+            axios.post('https://us-central1-counti-266e8.cloudfunctions.net/app/waitList', {
+                email: email
+            })
+            .then(response => {
+                console.log(response);
+                if (response.status === 200) {
+                    alert('You have been subscribed to our newsletter!');
+                } else {
+                    alert('Something went wrong. Please try again later.');
+                }
+            })
+            
+        });
+
+        // formhero
+        let form = document.getElementById('subscribe-form-hero');
+        
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            let emailHero = document.getElementById('email-hero').value;
+            let data = new FormData(form);
+            data.append('email', 'email');
+            console.log(emailHero);
+            axios.post('https://us-central1-counti-266e8.cloudfunctions.net/app/waitList', {
+                email: emailHero
+            })
+            .then(response => {
+                console.log(response);
+                if (response.status === 200) {
+                    alert('You have been subscribed to our newsletter!');
+                } else {
+                    alert('Something went wrong. Please try again later.');
+                }
+            })
+            
+        });
+        // manage
+        let formManage = document.getElementById('subscribe-form-manage');
+        
+        formManage.addEventListener('submit', function(event) {
+            event.preventDefault();
+            let emailManage = document.getElementById('email-manage').value;
+            let data = new FormData(form);
+            data.append('email', 'email');
+            console.log(emailManage);
+            axios.post('https://us-central1-counti-266e8.cloudfunctions.net/app/waitList', {
+                email: emailManage
+            })
+            .then(response => {
+                console.log(response);
+                if (response.status === 200) {
+                    alert('You have been subscribed to our newsletter!');
+                } else {
+                    alert('Something went wrong. Please try again later.');
+                }
+            })
+            
+        });
+
+        // footer
+        let formFooter = document.getElementById('subscribe-form-footer');
+        
+        formFooter.addEventListener('submit', function(event) {
+            event.preventDefault();
+            let emailFooter = document.getElementById('email-footer').value;
+            let data = new FormData(formFooter);
+            data.append('email', 'email');
+            console.log(emailFooter);
+            axios.post('https://us-central1-counti-266e8.cloudfunctions.net/app/waitList', {
+                email: emailFooter
+            })
+            .then(response => {
+                console.log(response);
+                if (response.status === 200) {
+                    alert('You have been subscribed to our newsletter!');
+                    
+                } else {
+                    alert('Something went wrong. Please try again later.');
+                }
+            })
+            
+        });
+        // integrate
+        let formIntegrate = document.getElementById('subscribe-form-integrate');
+        
+        formIntegrate.addEventListener('submit', function(event) {
+            event.preventDefault();
+            let emailIntegrate = document.getElementById('email-integrate').value;
+            let data = new FormData(formFooter);
+            data.append('email', 'email');
+            console.log(emailIntegrate);
+            axios.post('https://us-central1-counti-266e8.cloudfunctions.net/app/waitList', {
+                email: emailIntegrate
+            })
+            .then(response => {
+                console.log(response);
+                if (response.status === 200) {
+                    alert('You have been subscribed to our newsletter!');
+                    
+                } else {
+                    alert('Something went wrong. Please try again later.');
+                }
+            })
+            
+        });
+
+        
+      </script>
+</body>
+</html>
